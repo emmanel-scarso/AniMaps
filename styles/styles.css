@@ -25,14 +25,14 @@
 
     h1 {
         font-family: "Silkscreen";
-        font-size: calc(10px + 2vw);
+        font-size: calc(15px + 2vw);
         margin-top: -1vw;
         cursor: pointer;
         padding-bottom: 45px;
     }
 
     img {
-        width: calc(170px + 35vw);
+        width: calc(190px + 35vw);
         height: auto;
         pointer-events: none;
         cursor: pointer;
@@ -72,7 +72,7 @@
         background-image: url(../img/caminos-solidarios.jpg);
     }
 
-    #page-content { width: calc(100% - 60px); max-width:900px; padding-bottom: 130px; padding-left: 30px; padding-right: 30px;  }
+    #page-content { width: calc(100% - 40px); max-width:900px; padding-bottom: 130px; padding-left: 20px; padding-right: 20px;  }
 
     .container {
       max-width: 900px;
