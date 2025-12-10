@@ -55,7 +55,8 @@ body {
 }
 
 .navbar-logo {
-  height: 50px;
+  height: 70px;
+width: auto;
   transition: height 0.4s ease;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
 }
