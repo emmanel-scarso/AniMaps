@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>𝗔𝗻𝗶𝗠𝗮𝗽𝘀 | Animate al encuentro</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <link rel="icon" href="img/icons/favicon.png">
+
+</head>
+
+<body>
+  <div id="page-content">
+    <div class="container reveal">
+      <img src = "img/icons/logo.png">
+      <h1>Animate al encuentro</h1>
+
+      <p class="reveal"><strong>AniMaps</strong> es un <strong>mapa interactivo</strong> que muestra diversos espacios comunitarios dentro de la Ciudad de Buenos Aires dedicados a <strong>brindar asistencia, contención y acompañamiento a quienes lo necesitan.</strong> El objetivo es facilitar la ubicación de estos <strong>puntos solidario</strong>s y promover su acceso.</p>
+
+      <h2 class="reveal">Mapa Interactivo</h2>
+
+      <div class="map-container reveal">
+        <div class="map-wrapper">
+          <iframe src="TU_LINK_DE_MY_MAPS" id="main-iframe"></iframe>
+        </div>
+        <button class="expand-btn" id="expand-btn" aria-label="Ampliar mapa">⛶</button>
+      </div>
+
+    </div>
+
+    <section class="galeria reveal">
+      <h2 class="reveal">Nuestros favoritos</h2>
+      <p class="reveal">El equipo de <strong>AniMaps</strong> seleccionó los espacios solidarios que más frecuenta en la ciudad<br/><strong>¡Haz click en ellos para conocerlos</strong></p>
+
+      <div class="galeria-grid reveal">
+        <a id = "san-carlos" href = "https://www.google.com/maps/place/Oratorio+San+Carlos+Ciudad+Aut%C3%B3noma+de+Buenos+Aires/data=!4m2!3m1!1s0x95bccb001ef0d703:0x984e2fb3c831b4d7?sa=X&ved=1t:242&ictx=111">
+          <p><strong>Oratorio San Carlos</strong></p>
+        </a>
+
+        <a id = "caminos-solidarios" href = "https://www.google.com/maps/place/Oratorio+San+Carlos+Ciudad+Aut%C3%B3noma+de+Buenos+Aires/data=!4m2!3m1!1s0x95bccb001ef0d703:0x984e2fb3c831b4d7?sa=X&ved=1t:242&ictx=111">
+          <p>Comedor <strong>Caminos solidarios</strong></p>
+        </a>
+
+        <a id = "peldanos" href = "https://www.google.com/maps/place/Oratorio+San+Carlos+Ciudad+Aut%C3%B3noma+de+Buenos+Aires/data=!4m2!3m1!1s0x95bccb001ef0d703:0x984e2fb3c831b4d7?sa=X&ved=1t:242&ictx=111">
+          <p>Hogar <strong>Peldaños</strong></p>
+        </a>
+
+        <a id = "garay" href = "https://www.google.com/maps/place/Oratorio+San+Carlos+Ciudad+Aut%C3%B3noma+de+Buenos+Aires/data=!4m2!3m1!1s0x95bccb001ef0d703:0x984e2fb3c831b4d7?sa=X&ved=1t:242&ictx=111">
+          <p><strong>Oratorio de Garay</strong></p>
+        </a>
+
+        <a id = "apapachando" href = "https://www.google.com/maps/place/Oratorio+San+Carlos+Ciudad+Aut%C3%B3noma+de+Buenos+Aires/data=!4m2!3m1!1s0x95bccb001ef0d703:0x984e2fb3c831b4d7?sa=X&ved=1t:242&ictx=111">
+          <p><strong>Apapachando</strong></p>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Overlay donde moveremos el mapa para fullscreen -->
+  <div id="map-overlay" role="dialog" aria-modal="true">
+    <button class="close-btn" id="close-btn" aria-label="Cerrar mapa">✕</button>
+    <!-- Aquí se moverá la .map-wrapper mediante JS -->
+  </div>
+
+  <script src="scripts/index.js"></script>
+</body>
+</html>
