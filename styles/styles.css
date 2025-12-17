@@ -66,6 +66,10 @@ body::before {
   50% { transform: translateY(-20px); }
 }
 
+p {
+  text-align: center;
+}
+
 /* --- Navbar --- */
 .navbar {
   position: fixed;
@@ -766,8 +770,16 @@ footer::before {
 }
 
 .reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-hidden {
   opacity: 0;
   transform: translateY(25px);
+}
+
+.reveal-animate {
   animation: revealAnim 1s ease forwards;
 }
 

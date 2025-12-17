@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oratorio San Carlos | AniMaps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/lugar.css">
+  <link rel="icon" href="../img/icons/favicon.png">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-content">
+      <a href="../index.html">
+        <img src="../img/icons/logo.png" alt="AniMaps Logo" class="navbar-logo">
+      </a>
+    </div>
+  </nav>
+
+  <div id="page-content">
+    <div class="lugar-container reveal">
+      <h1 class="lugar-title">Oratorio San Carlos</h1>
+      
+      <!-- Slideshow -->
+      <div class="slideshow-container">
+        <div class="slideshow-wrapper">
+          <div class="slide active">
+            <img src="../img/lugares/san-carlos/san-carlos-1.jpg" alt="Oratorio San Carlos - Entrada">
+          </div>
+          <div class="slide">
+            <img src="../img/lugares/san-carlos/san-carlos-2.jpg" alt="Oratorio San Carlos - Patio">
+          </div>
+          <div class="slide">
+            <img src="../img/lugares/san-carlos/san-carlos-3.jpg" alt="Oratorio San Carlos - Comedor">
+          </div>
+          
+          <button class="slide-btn prev" aria-label="Imagen anterior">‹</button>
+          <button class="slide-btn next" aria-label="Imagen siguiente">›</button>
+          
+          <div class="slide-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="lugar-info">
+        <h2>Sobre este espacio</h2>
+        <p id = "info-p">Espacio recreativo realizado por la parroquia Maria Auxiliadora y San Carlos en el barrio de Almagro.</br>
+            La propuesta, pensada para los niños de entre 4 a 15 años, se basa en juegos, espacios recreativos y disfrutar el patio en comunidad. La escucha atenta y el compartir dos desayunos también son parte del corazón del espacio. Si alguna familia está pasando por un momento complicado o está en situación de vulnerabilidad, la casa intenta acompañarlas, buscando donaciones como comida, ropa o útiles escolares.
+        </p>
+        <div class="lugar-detalles">
+          <div class="detalle-item">
+            <span class="detalle-texto"><strong>Dirección:</strong> Yapeyú 197, Almagro, Ciudad Autónoma de Buenos Aires</span>
+          </div>
+          <div class="detalle-item">
+            <span class="detalle-texto"><strong>Horario:</strong> Sábado, 10:00am - 12:30am</span>
+          </div>
+          <div class="detalle-item">
+            <span class="detalle-texto"><strong>Contacto:</strong> (011) 4911-2345</span>
+          </div>
+        </div>
+
+        <a href="../index.html" class="btn-volver">← Volver al inicio</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Sobre AniMaps</h3>
+        <p>Conectamos a la comunidad con espacios solidarios en Buenos Aires. Nuestro objetivo es facilitar el acceso a centros de ayuda, comedores y hogares para quienes más lo necesitan.</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <p> omartinez@pioix.edu.ar</p>
+        <p> escarso@pioix.edu.ar</p>
+        <p> Buenos Aires, Argentina</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 AniMaps. | Hecho con 💛 para la comunidad</p>
+    </div>
+  </footer>
+
+  <script src="../scripts/navbar.js"></script>
+  <script src="../scripts/slideshow.js"></script>
+</body>
+</html>

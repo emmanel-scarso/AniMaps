@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oratorio San Carlos | AniMaps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/lugar.css">
+  <link rel="icon" href="../img/icons/favicon.png">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-content">
+      <a href="../index.html">
+        <img src="../img/icons/logo.png" alt="AniMaps Logo" class="navbar-logo">
+      </a>
+    </div>
+  </nav>
+
+  <div id="page-content">
+    <div class="lugar-container reveal">
+      <h1 class="lugar-title">Oratorio San Carlos</h1>
+      
+      <!-- Slideshow -->
+      <div class="slideshow-container">
+        <div class="slideshow-wrapper">
+          <div class="slide active">
+            <img src="../img/oratorio-san-carlos.jpg" alt="Oratorio San Carlos - Entrada">
+          </div>
+          <div class="slide">
+            <img src="../img/oratorio-garay.jpg" alt="Oratorio San Carlos - Patio">
+          </div>
+          <div class="slide">
+            <img src="../img/lugares/oratorio-san-carlos.jpg" alt="Oratorio San Carlos - Comedor">
+          </div>
+          
+          <button class="slide-btn prev" aria-label="Imagen anterior">‹</button>
+          <button class="slide-btn next" aria-label="Imagen siguiente">›</button>
+          
+          <div class="slide-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="lugar-info">
+        <h2>Sobre este espacio</h2>
+        <p id = "info-p">El Oratorio San Carlos es un espacio comunitario dedicado a brindar contención y apoyo a niños y jóvenes del barrio. Ofrece actividades recreativas, apoyo escolar y un comedor donde los chicos pueden acceder a una comida nutritiva.</p>
+        
+        <div class="lugar-detalles">
+          <div class="detalle-item">
+            <span class="detalle-texto"><strong>Dirección:</strong> Av. Directorio 1800, Parque Chacabuco</span>
+          </div>
+          <div class="detalle-item">
+            <span class="detalle-texto"><strong>Horarios:</strong> Lunes a Viernes, 14:00 - 20:00</span>
+          </div>
+          <div class="detalle-item">
+            <span class="detalle-texto"><strong>Contacto:</strong> (011) 4911-2345</span>
+          </div>
+        </div>
+
+        <a href="../index.html" class="btn-volver">← Volver al inicio</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Sobre AniMaps</h3>
+        <p>Conectamos a la comunidad con espacios solidarios en Buenos Aires. Nuestro objetivo es facilitar el acceso a centros de ayuda, comedores y hogares para quienes más lo necesitan.</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <p> omartinez@pioix.edu.ar</p>
+        <p> escarso@pioix.edu.ar</p>
+        <p> Buenos Aires, Argentina</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 AniMaps. | Hecho con 💛 para la comunidad</p>
+    </div>
+  </footer>
+
+  <script src="../scripts/navbar.js"></script>
+  <script src="../scripts/slideshow.js"></script>
+</body>
+</html>
